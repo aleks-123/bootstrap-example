@@ -1,0 +1,34 @@
+.pozadina{
+	background-image: url(bg-masthead.jpg);
+	height: 300px;
+	background-position: center;
+}
+
+.plava{
+	background-color: lightblue;
+}
+
+.iphone{
+	background-image: url(bg-showcase-1.jpg);
+	background-position: center;
+	height: 300px;
+}
+
+.bukvi{
+	background-image: url(bg-showcase-2.jpg);
+	background-position: center;
+	height: 300px;
+}
+
+.dete{
+	background-image: url(bg-showcase-3.jpg);
+	background-position: center;
+	height: 300px;
+}
+
+.pozadinaq{
+	background-image: url(bg-masthead.jpg);
+	height: 200px;
+	background-position: center;
+}
+}

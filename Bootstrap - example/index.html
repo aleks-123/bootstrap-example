@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ispit bootstrap</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style7.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <a class="navbar-brand" href="#">GSIX Academy</a>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  <button class="navbar-toggler mr-auto " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HTMl <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">CSS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Bootstrap
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item " href="#">Link 1</a>
+          <a class="dropdown-item bg-success" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+      </li>
+     
+    </ul>
+  
+  </div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row mt-5">
+		<div class="col-md-3">
+			<ul class="list-group list-group">
+				    <li class="list-group-item">First item  <span class="badge badge-primary float-right">12</span></li>
+				    <li class="list-group-item">Second item<span class="badge badge-success float-right">23</span></li>
+				    <li class="list-group-item">Third item <span class="badge badge-danger float-right">90</span></li>
+				   
+  				</ul>
+			
+		</div>
+
+		<div class="col-md-9">
+			<div class="alert alert-danger">
+ 					 <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+				</div>
+				<div class="alert alert-success">
+ 					 <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+				</div>
+				<div class="alert alert-warning">
+ 					 <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+				</div>
+				<div class="alert alert-primary">
+ 					 <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+				</div>
+		</div>
+	</div>
+	<div class="row mt-5">
+		<div class="col-md-6 text-center">
+			<h1 class="text-light bg-dark">Users</h1>
+		</div>
+		<div class="col-md-6 text-center ">
+			<h1 class="text-light bg-secondary">Subscribers</h1>
+		</div>			
+	</div>
+	<div class="row ">
+		<div class="col-md-6">
+			 <table class="table ">
+			    <thead class="text-light bg-dark">
+			      <tr>
+			      	<th>#</th>
+			        <th>Firstname</th>
+			        <th>Lastname</th>
+			        <th>Email</th>
+			        <th>Action</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			      	<td>1</td>
+			        <td>Ace</td>
+			        <td>Milosheski</td>
+			        <td>john@example.com</td>
+			        <td><div class="btn-group">
+						  <button type="button" class="btn btn-danger btn-sm">Send </button>
+						  <button type="button" class="btn btn-warning btn-sm text-light">Cancel</button>
+							</div>
+					</td>
+			      </tr>
+					<tr>
+			      	<td>2</td>
+			        <td>Ace</td>
+			        <td>Milosheski</td>
+			        <td>john@example.com</td>
+			        <td><div class="btn-group">
+						  <button type="button" class="btn btn-danger btn-sm">Send </button>
+						  <button type="button" class="btn btn-warning btn-sm text-light">Cancel</button>
+							</div>
+					</td>
+			      </tr>
+					<tr>
+			      	<td>3</td>
+			        <td>Ace</td>
+			        <td>Milosheski</td>
+			        <td>john@example.com</td>
+			        <td><div class="btn-group">
+						  <button type="button" class="btn btn-danger btn-sm">Send </button>
+						  <button type="button" class="btn btn-warning btn-sm text-light">Cancel</button>
+							</div>
+					</td>
+			      </tr>
+			    </tbody>
+			  </table>
+
+		</div>
+		<div class="col-md-6">
+			 <table class="table ">
+			    <thead class="text-light bg-secondary">
+			      <tr>
+			      	<th>#</th>
+			        <th>Firstname</th>
+			        <th>Lastname</th>
+			        <th>Email</th>
+			        <th>Action</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			      	<td>1</td>
+			        <td>Ace</td>
+			        <td>Milosheski</td>
+			        <td>john@example.com</td>
+			        <td><div class="btn-group">
+						  <button type="button" class="btn btn-danger btn-sm">Send </button>
+						  <button type="button" class="btn btn-warning btn-sm text-light">Cancel</button>
+							</div>
+					</td>
+			      </tr>
+					<tr>
+			      	<td>2</td>
+			        <td>Ace</td>
+			        <td>Milosheski</td>
+			        <td>john@example.com</td>
+			        <td><div class="btn-group">
+						  <button type="button" class="btn btn-danger btn-sm">Send </button>
+						  <button type="button" class="btn btn-warning btn-sm text-light">Cancel</button>
+							</div>
+					</td>
+			      </tr>
+					<tr>
+			      	<td>3</td>
+			        <td>Ace</td>
+			        <td>Milosheski</td>
+			        <td>john@example.com</td>
+			        <td><div class="btn-group">
+						  <button type="button" class="btn btn-danger btn-sm">Send </button>
+						  <button type="button" class="btn btn-warning btn-sm text-light">Cancel</button>
+							</div>
+					</td>
+			      </tr>
+			    </tbody>
+			  </table>
+
+		</div>
+	</div>
+	<div class="row mt-5 mb-5">
+		<div class="col-md-3">
+			<div class="card">
+			  <img class="card-img-top" src="images/avatar.jpg" alt="Card image">
+				<div class="card-body">
+				   <h4 class="card-title">Ace M</h4>
+				   <p class="card-text">Ace e najdobar.</p>
+				   <a href="#" class="btn btn-primary">See Profile</a>
+			  	 </div>
+			</div>
+
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				  <img class="card-img-top" src="images/avatar.png" alt="Card image">
+				  <div class="card-img-overlay">
+				    <h4 class="card-title text-light">Saso m</h4>
+				    <p class="card-text text-light">Is our mentor</p>
+				    <a href="#" class="btn btn-primary">See Profile</a>
+				  </div>
+			</div>
+
+			
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+			  <img class="card-img-top" src="images/avatar.jpg" alt="Card image">
+				<div class="card-body">
+				   <h4 class="card-title">Ace M</h4>
+				   <p class="card-text">Ace e najdobar.</p>
+				   <a href="#" class="btn btn-primary">See Profile</a>
+			  	 </div>
+			</div>
+
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+		    <div class="card-body">
+		      <h4 class="card-title">Bla bla</h4>
+		      <p class="card-text">Bla bla bla</p>
+		      <a href="#" class="btn btn-primary">See Profile</a>
+		    </div>
+		    <img class="card-img-bottom" src="images/avatar.png" alt="Card image">
+		  </div>
+
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2>Some Testimonials</h2>
+		</div>
+	</div>
+	<div class="row mt-5">
+		<div class="col-md-10 offset-1">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="media border p-3">
+					  <img style="width: 150px" src="images/avatar1.png" alt="John Doe" class="mr-3 mt-3 rounded-circle">
+					 	 <div class="media-body">
+						    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+					 	 </div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="media border p-3">
+					  <img style="width: 150px" src="images/avatar1.png" alt="John Doe" class="mr-3 mt-3 rounded-circle">
+					 	 <div class="media-body">
+						    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+					 	 </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row mt-5 mb-5">
+		<div class="col-md-12 bg-primary text-light text-center">
+			<h2>Contact Us!</h2>
+		</div>
+	</div>
+	<div class="col-md-8 offset-2 mt-2">
+		<form class="form-inline" action="/action_page.php">
+		  <div class="form-group">
+		    <label for="email">Email address:</label>
+		    <input type="email" class="form-control" id="email">
+		  </div>
+		  <div class="form-group">
+		    <label for="pwd">Password:</label>
+		    <input type="password" class="form-control" id="pwd">
+		  </div>
+		  <div class="checkbox">
+		    <label><input type="checkbox"> Remember me</label>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+	<div class="row mt-5 mb-5">
+		<div class="col-md-12 text-light text-center bg-success">
+			<h2>Stay in toouch!</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+			    <label for="text">Name:</label>
+			    <input type="text" class="form-control" id="email">
+			</div>
+
+		<div class="form-group">
+		    <label for="pwd">Password:</label>
+		    <input type="password" class="form-control" id="pwd">
+		</div>
+
+		<div class="form-group">
+		    <label for="text">Gender:</label>
+		    <input type="text" class="form-control" id="num">
+		</div>
+
+		<div class="form-group">
+		    <label for="pwd">Address:</label>
+		    <input type="text" class="form-control" id="adr">
+		</div>
+
+
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3>Vote your favorite</h3>
+				</div>
+				<div class="col-md-6 offset-4 mt-3 mb-5">
+					<div class="btn-group">
+						  <button type="button" class="btn btn-success">HTML</button>
+						  <button type="button" class="btn btn-danger">CSS</button>
+						  <button type="button" class="btn btn-info">Bootstrap</button>
+					</div>
+
+				</div>
+				<div class="col-md-12">
+					<div class="progress">
+				    <div class="progress-bar bg-success" style="width:33.33%">
+				      HTML
+				    </div>
+				    <div class="progress-bar bg-danger" style="width:33.333%">
+				      CSS
+				    </div>
+				    <div class="progress-bar bg-info" style="width:33.333%">
+				      Bootstrap
+				    </div>
+				    
+  				</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="row">
+		
+	<div class="col-md-12 bg-secondary text-center text-light pt-2 pb-2 ">
+		<h3>Bootstrap Gsix Exam May 2019 </h3>
+	</div>
+	</div>
+</div>
+
+</body>
+</html>
